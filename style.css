@@ -1,0 +1,46 @@
+:root{
+    --branco-texto:#FFFF;
+    --roxo-nu:#842EAD;
+    --fonte-principal: 'Inter';
+}
+.cabecalho{
+    background-color: var(--branco-texto);
+    color: var(--roxo-nu);
+}
+
+.logo__cabecalho{
+    width: 8%;
+}
+
+body{
+    background-color: var(--roxo-nu);
+    color:var(--branco-texto);
+    font-family: var(--fonte-principal);
+    text-align: center;
+    margin: 0 5em;
+}
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.principal{
+    background-color: var(--roxo-nu);
+    background-image: url("img/fundoNu.png");
+    background-size: contain ;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+.container__texto{
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 5em 5em 0;
+        
+}
+
+.container__imagem{
+    width: 80%;
+    margin: 0 0 10em 5em;
+}
